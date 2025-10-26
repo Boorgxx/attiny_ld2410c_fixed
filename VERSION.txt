@@ -1,0 +1,21 @@
+Version: 1.0
+Date: 2025-01-27
+Build: Optimized
+
+Features:
+- PWM fade effect (3s fade-in, 1s fade-out)
+- Fast blink on detection (100ms)
+- Debouncing 500ms
+- USB keyboard output (p/o characters)
+- Heartbeat every 5s during detection
+- 3x message repeat with 1s interval
+
+Memory Usage:
+- Flash: 3414 bytes (51%)
+- RAM: 96 bytes (18%)
+
+Hardware:
+- MCU: ATtiny85 Digispark
+- Sensor: HLK-LD2410C mmWave Radar
+- LED: P1 (PB1) with PWM
+- Sensor: P2 (PB2)
